@@ -1,11 +1,11 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, {/*type here*/} } from "react";
 import ReactDOM from "react-dom/client";
 
 function App() {
   // Create a state variable "inputValue" with an initial value of an empty string
   const [inputValue, setInputValue] = useState("");  
   // Create a reference "count" using the useRef hook and initialize it to zero
-  const count = useRef(0);  
+  const count = {/*type here*/}(0);  
 
   useEffect(() => {  
     // Create an effect that will run after every render of the component
